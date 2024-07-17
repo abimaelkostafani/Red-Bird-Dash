@@ -156,7 +156,7 @@ const bird = {
     rotation : 0,   
 
     jump : 3.5,
-    gravity : 0.13,
+    gravity : 0.14,
     speed : 0,
 
     // WE CONSIDER THE BIRD IS A BALL, SO IT WILL BE EASY TO DETECT COLLISIONS
