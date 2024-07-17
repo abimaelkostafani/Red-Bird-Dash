@@ -446,7 +446,7 @@ const TefaStudio = {
     ws: 58,
     hs: 35,
     x: 10,
-    y: 538,
+    y: 508,
     w: 58,
     h: 35,
 
