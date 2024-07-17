@@ -446,7 +446,7 @@ const TefaStudio = {
     ws: 58,
     hs: 35,
     x: 10,
-    y: 540,
+    y: 538,
     w: 58,
     h: 35,
 
@@ -480,16 +480,11 @@ function draw(){
     // Menambahkan kalimat "Created by" di bagian bawah 
     ctx.fillStyle = "#FFF";
     ctx.font = "10px sans serif";
-    const createdByText = "Created by";
-    const NAMAText = "Abimael";
+    const createdByText = "Created by Abimael";
     const createdByTextWidth = ctx.measureText(createdByText).width;
-    const NAMATextWidth = ctx.measureText(NAMAText).width;
 
     // Menggambar teks "Created by"
-    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 1.09, cvs.height - 20);
-
-    // Menggambar teks "NAMA"
-    ctx.fillText(NAMAText, (cvs.width - NAMATextWidth) / 1.09, cvs.height - 8);
+    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 1.03, cvs.height - 10);
 }
 
 
