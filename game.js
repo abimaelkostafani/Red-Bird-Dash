@@ -486,10 +486,10 @@ function draw(){
     const NAMATextWidth = ctx.measureText(NAMAText).width;
 
     // Menggambar teks "Created by"
-    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 1.08, cvs.height - 20);
+    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 1.09, cvs.height - 20);
 
-    // Menggambar teks "TEFA STUDIO"
-    ctx.fillText(NAMAText, (cvs.width - NAMATextWidth) / 1.08, cvs.height - 8);
+    // Menggambar teks "NAMA"
+    ctx.fillText(NAMAText, (cvs.width - NAMATextWidth) / 1.09, cvs.height - 8);
 }
 
 
