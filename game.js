@@ -484,7 +484,7 @@ function draw(){
     const createdByTextWidth = ctx.measureText(createdByText).width;
 
     // Menggambar teks "Created by"
-    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / -30, cvs.height - 10);
+    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 2, cvs.height - 10);
 }
 
 
