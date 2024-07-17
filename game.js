@@ -492,8 +492,6 @@ function draw(){
     ctx.fillText(NAMAText, (cvs.width - NAMATextWidth) / 1.08, cvs.height - 8);
 }
 
-
-
 // GAME LOOP
 function loop(){
 
