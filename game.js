@@ -479,7 +479,7 @@ function draw(){
     
     // Menambahkan kalimat "Created by" di bagian bawah 
     ctx.fillStyle = "#FFF";
-    ctx.font = "10px Times New Roman Bold";
+    ctx.font = "10px sans serif";
     const createdByText = "Created by";
     const NAMAText = "Abimael";
     const createdByTextWidth = ctx.measureText(createdByText).width;
