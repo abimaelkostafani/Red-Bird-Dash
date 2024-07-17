@@ -481,7 +481,7 @@ function draw(){
     ctx.fillStyle = "#FFF";
     ctx.font = "10px Times New Roman Bold";
     const createdByText = "Created by";
-    const NAMAText = "Abimael PK";
+    const NAMAText = "Abimael";
     const createdByTextWidth = ctx.measureText(createdByText).width;
     const NAMATextWidth = ctx.measureText(NAMAText).width;
 
