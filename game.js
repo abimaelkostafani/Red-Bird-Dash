@@ -477,15 +477,21 @@ function draw(){
     gameOver.draw();
     TefaStudio.draw();
     
-    // Menambahkan kalimat "Created by" di bagian bawah tengah canvas
+    // Menambahkan kalimat "Created by" di bagian bawah 
     ctx.fillStyle = "#FFF";
     ctx.font = "10px Times New Roman Bold";
-    const createdByText = "Created by Abimael Putra Kostafani";
+    const createdByText = "Created by";
+    const NAMAText = "Abimael PK";
     const createdByTextWidth = ctx.measureText(createdByText).width;
+    const NAMATextWidth = ctx.measureText(NAMAText).width;
 
     // Menggambar teks "Created by"
-    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 2, cvs.height - 10);
+    ctx.fillText(createdByText, (cvs.width - createdByTextWidth) / 1.08, cvs.height - 20);
+
+    // Menggambar teks "TEFA STUDIO"
+    ctx.fillText(NAMAText, (cvs.width - NAMATextWidth) / 1.08, cvs.height - 8);
 }
+
 
 
 // GAME LOOP
