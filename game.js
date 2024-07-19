@@ -101,7 +101,7 @@ document.addEventListener("keydown", function(evt){
 const getReady = {
     xs : 0,
     ys : 228,
-    ws : 173,
+    ws : 172,
     hs : 152,
     x : cvs.width/2 - 173/2,
     y : 80,
