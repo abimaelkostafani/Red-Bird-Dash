@@ -407,7 +407,7 @@ const pipes = {
 
 // GAME OVER
 const gameOver = {
-    xs: 175,
+    xs: 173,
     ys: 228,
     ws: 225,
     hs: 202,
