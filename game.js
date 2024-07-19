@@ -103,7 +103,7 @@ const getReady = {
     ys : 228,
     ws : 172,
     hs : 152,
-    x : cvs.width/2 - 173/2,
+    x : cvs.width/2 - 172/2,
     y : 80,
 
     draw : function(){
